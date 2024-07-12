@@ -8,6 +8,7 @@ This repo is based on the tutorial from: <https://realpython.com/python-project-
 - (.venv) `python -m pip install mkdocs`
 - (.venv) `python -m pip install "mkdocstrings[python]"`
 - (.venv) `python -m pip install mkdocs-material`
+- (.venv) `python -m pip install mkdocs-pdf` may also need to install GTK bundle (msys2)
 - `mkdocs serve` to serve up static document webpage (for development)
 - `mkdocs build` to build a static webpage (in "site/")
   - `mkdocs gh-deploy` if using GitHub, this will rebuild the

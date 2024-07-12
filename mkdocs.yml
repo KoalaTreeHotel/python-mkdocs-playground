@@ -10,6 +10,8 @@ plugins:
         python:
           rendering:
             show_source: true
+  - with-pdf
+
 nav:
   - Home: index.md
   - Reference: reference.md
