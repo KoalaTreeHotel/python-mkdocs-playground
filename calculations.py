@@ -29,7 +29,7 @@ def add(a, b):
         b (float): A number representing the second addend in the addition.
 
     Returns:
-        float: A number representing the arithmetic sum of `a` and `b`.
+        num (float): A number representing the arithmetic sum of `a` and `b`.
     """
     return float(a + b)
 
@@ -47,7 +47,7 @@ def subtract(a, b):
         b (float): A number representing the subtrahend in the subtraction.
 
     Returns:
-        float: A number representing the arithmetic difference between `a` and `b`.
+        num (float): A number representing the arithmetic difference between `a` and `b`.
     """
     return float(a - b)
 
@@ -65,7 +65,7 @@ def multiply(a, b):
         b (float): A number representing the multiplier in the multiplication.
 
     Returns:
-        float: A number representing the arithmetic product of `a` and `b`.
+        num (float): A number representing the arithmetic product of `a` and `b`.
     """
     return float(a * b)
 
@@ -90,7 +90,7 @@ def divide(a, b):
         ZeroDivisionError: If `b` is zero, indicating division by zero is not allowed.
 
     Returns:
-        float: A number representing the arithmetic quotient of `a` divided by `b`.
+        num (float): A number representing the arithmetic quotient of `a` divided by `b`.
     """
     if b == 0:
         raise ZeroDivisionError("division by zero")
