@@ -1,3 +1,5 @@
+# Using Google Python Style Guide: https://google.github.io/styleguide/pyguide.html
+
 class TestCalculations:
     """
     A test class for the calculations module.
