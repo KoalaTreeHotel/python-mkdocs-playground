@@ -1,0 +1,15 @@
+site_name: Calculation Docs
+
+theme:
+  name: "material"
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          rendering:
+            show_source: true
+nav:
+  - Home: index.md
+  - Reference: reference.md
